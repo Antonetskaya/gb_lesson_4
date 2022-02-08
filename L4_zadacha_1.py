@@ -8,7 +8,7 @@ from sys import argv
 file, vyrabotka, stavka, premiya = argv
 print(L4_zadacha_1.zarplata(int(vyrabotka), int(stavka), int(premiya)))
 
-# Код в файла со скриптом в моем случае - L4_zadacha_1.py
+# Код файла со скриптом в моем случае - L4_zadacha_1.py
 def zarplata(vyrabotka, stavka, premiya):
     return vyrabotka * stavka + premiya
 

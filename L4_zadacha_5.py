@@ -6,6 +6,5 @@
 import random
 from functools import reduce
 spisok = [random.randint(100, 1000) for el in range(4)]
-proizvedenie = reduce(lambda x, y: x * y, spisok)
 print(spisok)
-print(proizvedenie)
+print(reduce(lambda x, y: x * y, spisok))
